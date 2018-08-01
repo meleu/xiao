@@ -7,7 +7,7 @@ class HelperCommand extends Command {
         this.group = 'helper';
 
         this.argsSingleQuotes = info.argsSingleQuotes || false;
-        this.throttling = info.throttling || { usages: 1, duration: 2 };
+        this.throttling = info.throttling || { usages: 2, duration: 5 };
     }
 }
 
