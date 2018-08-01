@@ -10,7 +10,7 @@ module.exports = class DocsCommand extends HelperCommand {
             args: [
                 {
                     key: 'doc',
-                    prompt: 'What text would you like the bot to say?',
+                    prompt: 'What doc do you wanna see?',
                     type: 'string'
                 }
             ]
